@@ -1,6 +1,7 @@
 import { useState } from 'react'
 
 import './App.css'
+import SearchForm from './components/SearchForm'
 
 function App() {
 
@@ -9,6 +10,7 @@ function App() {
     <>
       <div>
         <h1> Movie Collection</h1>
+        <SearchForm />
         </div>
     </>
   )
